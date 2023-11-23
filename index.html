@@ -69,7 +69,7 @@
             map.setMaxBounds(map.getBounds());
         }
         map.createPane('pane_OpenStreetMap_0');
-        map.getPane('pane_OpenStreetMap_0').style.zIndex = 1000;
+        map.getPane('pane_OpenStreetMap_0').style.zIndex = 1;
 	L.control.locate({locateOptions: {maxZoom: 19}}).addTo(map);
         var layer_OpenStreetMap_0 = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             pane: 'pane_OpenStreetMap_0',
